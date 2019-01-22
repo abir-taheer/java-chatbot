@@ -18,11 +18,11 @@ Since it's a library, it's main purpose is to be used in other cases where someo
 ```
 
 # Things to try
-*Asking the chatbot:
->What's the weather 
+* Asking the chatbot:
+        >What's the weather 
 
->What's the weather in New York 
+        >What's the weather in New York 
 
->Banana 
+        >Banana 
 
-As well as making your own chatbots and intents using the library
+* As well as making your own chatbots and intents using the library
