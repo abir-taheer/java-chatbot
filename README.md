@@ -28,3 +28,7 @@ Since it's a library, it's main purpose is to be used in other cases where someo
 >Banana 
 
 * As well as making your own chatbots and intents using the library
+
+
+# Drawbacks
+* The library currently only supports one parameter being passed for an intent.
