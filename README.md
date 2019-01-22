@@ -2,10 +2,10 @@
 A library for making chatbots in the terminal. 
 I was intrigued by apps like dialogflow that use machine learning to identify an intent to speech and tried to make an algorithmic version of the intent matching without using machine learning.
 
-#Uses
+# Uses
 Since it's a library, it's main purpose is to be used in other cases where someone would create a chatbot using the library and thus, there are a lack of commands that currently exist
 
-#Example of using the library
+# Example of using the library
 ```
         Chatbot talker = new Chatbot();
         //You can manually add new intents here
@@ -17,7 +17,7 @@ Since it's a library, it's main purpose is to be used in other cases where someo
 
 ```
 
-#Things to try
+# Things to try
 *Asking the chatbot:
 >What's the weather
 >What's the weather in New York
