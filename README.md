@@ -7,13 +7,15 @@ Since it's a library, it's main purpose is to be used in other cases where someo
 
 # Example of using the library
 ```
-        Chatbot talker = new Chatbot();
-        //You can manually add new intents here
-        Intent weather  = talker.newIntent();
-        weather.trainPhrase("What's the weather in @location");
-        weather.trainPhrase("How's the weather at @location");
-        //Set the action of the intent to a function call
-        weather.setAction( () -> System.out.println(getWeather(weather.getCurrentParam())) );
+        Chatbot talker = new Chatbot(); //Create an instance of the chatbot
+     
+        Intent weather  = talker.newIntent(); //Add a new intent
+        weather.trainPhrase("What's the weather in @location"); //Add some training phrases for the intent
+        weather.trainPhrase("How's the weather at @location"); 
+        
+        weather.setParametersRequired(true); //Make it so that a parameter is required. This is also handled by the library
+        weather.setAction( () -> System.out.println(getWeather(weather.getCurrentParam()))); //Set a custom action to be called with the intent
+        
 
 ```
 
